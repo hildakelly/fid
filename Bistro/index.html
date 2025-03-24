@@ -7,11 +7,14 @@
     <meta charset="utf-8">
     <title>Black Goose Bistro</title>
     <style>
-        body {
+            
+  body {
   background-color: #faf2e4;
   margin: 0 10%;
   font-family: sans-serif;
   }
+
+
 h1 {
   text-align: center;
   font-family: serif;
@@ -19,10 +22,11 @@ h1 {
   text-transform: uppercase;
   border-bottom: 1px solid #57b1dc;
   margin-top: 30px;
+  
 }
 h2 {
   color: #d1633c;
-  font-size: 1em;
+  margin-top: 25px;
 }
 
 footer {
@@ -36,6 +40,42 @@ footer img {
   margin-left: .5em;
   margin-right: .5em;
  } 
+
+
+.navbar {
+    background-color: #7c3c2c; 
+    padding: 1px 0; 
+    text-align: center; 
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f4a261; 
+}
+
+
+
+
+
     </style>
 </head>
 <body>
@@ -57,24 +97,29 @@ footer img {
 
 </svg><br>Black Goose Bistro</h1>
 
-<nav>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="menu.html">Menu</a></li>
-    <li><a href="bgnews.html">News</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="gallery/gallery.html">Gallery</a></li>
-    <li><a href="jenskitchen/jensindex.html">Jen's Kitchen</a></li>
-  </ul>
-</nav>
+
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="bgnews.html">News</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="gallery/gallery.html">Gallery</a></li>
+      <li><a href="jenskitchen/jensindex.html">Jen's Kitchen</a></li>
+    </ul>
+  </nav>
+
+
 
    <h2>The Restaurant</h2>
     <p>The Black Goose Bistro offers casual lunch and dinner fare in a relaxed atmosphere. The menu changes regularly to highlight the freshest local ingredients.</p>
-    <p><a href="pizza.html"><img src="images/icons/pizzabutton.gif" alt="Button for ordering pizza" width="200" height="100"></a></p>
-
+   
     <h2>Catering </h2>
     <p>You have fun. <em>We'll handle the cooking.</em> Black Goose Catering can handle events from snacks for a meetup to elegant corporate fundraisers.</p>
-    
+    <p>Our pizza is now available for delivery. Order now!</p>
+    <p><a href="pizza.html"><img src="images/icons/pizzabutton.gif" alt="Button for ordering pizza" width="200" height="100"></a></p>
+
+
     <h2>Location and Hours </h2>
     <p> Seekonk, Massachusetts;<br>
         Monday through Thursday 11am to 9pm; <br>Friday and Saturday, 11am to midnight</p>
