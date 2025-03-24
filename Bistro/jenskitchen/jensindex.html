@@ -7,6 +7,9 @@
 body {
 	margin: 2em 5%;
 	font-family: Georgia, "Times New Roman", Times, serif;
+
+ 
+
 }
 h1, h2 {	
 	color: #399;}
@@ -20,6 +23,40 @@ h2 {
 small {
 	color: #999;
 }
+
+
+.navbar {
+    background-color: #295d65; 
+    padding: 1px 0; 
+    text-align: center; 
+    margin-top: 15px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #c9d1ff; 
+}
+
+
 </style>
 
 </head>
@@ -27,8 +64,8 @@ small {
 <body>
 <img src="images/jenskitchen.gif" alt="Jen's Kitchen banner" width="660" height="94">
 
-<nav>
-	<ul>
+<nav class="navbar">
+	<ul class="nav-links">
 	  <li><a href="../index.html">Home</a></li>
 	  <li><a href="../menu.html">Menu</a></li>
 	  <li><a href="../bgnews.html">News</a></li>
