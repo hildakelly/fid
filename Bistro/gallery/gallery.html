@@ -5,24 +5,69 @@
 <title>Black Goose Bistro Gallery</title>
 <style>
 body {
-  background-color: #faf2e4;
-  margin: 0 10%;
-  font-family: sans-serif;
+    background-color: #faf2e4;
+    margin: 0 10%;
+    font-family: sans-serif;
+    }
+  
+  
+  h1 {
+    text-align: center;
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #57b1dc;
+    margin-top: 30px;
+    
+  }
+  h2 {
+    color: #d1633c;
+    margin-top: 25px;
+  }
+  
+  footer {
+    border-top: 1px solid #57b1dc;
+    text-align: center;
+    padding-top: 1em;
+  }
+  footer img {
+    width: 40px;
+    height: 40px;
+    margin-left: .5em;
+    margin-right: .5em;
+   } 
+  
+  
+  .navbar {
+      background-color: #7c3c2c; 
+      padding: 1px 0; 
+      text-align: center; 
+  }
+  
+  .nav-links {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center; 
+      gap: 20px; 
+  }
+  
+  .nav-links li {
+      display: inline;
+  }
+  
+  .nav-links a {
+      text-decoration: none;
+      color: white;
+      font-size: 17px;
+      padding: 10px 15px;
+      transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+      color: #f4a261; 
   }
 
-h1 {
-  text-align: center;
-  font-family: serif;
-  font-weight: normal;
-  text-transform: uppercase;
-  border-bottom: 1px solid #57b1dc;
-  margin-top: 30px;
-}
-
-h2 {
-  color: #d1633c;
-  font-size: 1em;
-}
 
 </style>
 
@@ -33,8 +78,8 @@ h2 {
 
 <h1>Black Goose Bistro Gallery</h1>
 
-<nav>
-  <ul>
+<nav class="navbar">
+  <ul class="nav-links">
     <li><a href="../index.html">Home</a></li>
     <li><a href="../menu.html">Menu</a></li>
     <li><a href="../bgnews.html">News</a></li>
@@ -43,6 +88,7 @@ h2 {
     <li><a href="../jenskitchen/jensindex.html">Jen's Kitchen</a></li>
   </ul>
 </nav>
+
 
 
 <p>Not only is our food good, it's also good-looking! Our patrons often stop to admire our fare with a quick Instagram before digging in. We've collected a few of our favorite shots here.</p>
