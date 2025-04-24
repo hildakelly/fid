@@ -1,0 +1,147 @@
+
+header {
+            text-align: center;
+            padding: 30px;
+            color: #000080;
+            border-bottom: 2px solid #e2a4d2;
+            margin-bottom: 20px;
+        }
+
+    body {
+background-color: #f4f1ef;
+margin: 0 10%;
+font-family: sans-serif;
+}
+h1 {
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: normal;
+font-size: 3.5em;
+color: #d6146b;
+text-transform: full-width;
+
+margin-top: 50px;
+
+}
+h2 {
+color: #02050f;
+font-size: 1.5em;
+background: #c9ccf4;
+padding-left: 10px;
+}
+
+h3{
+    background:  #ffdfdf;
+    padding-left: 10px;
+    margin-top: 45px;
+}
+
+p {
+    margin-left: 20px;
+}
+
+ul {
+
+padding-top: 1px;
+margin-left: 25px;
+}
+
+li {
+
+padding-top: 10px;
+}
+
+
+/* Gallery Layout */
+.gallery {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; /* Space between containers */
+    padding: 10px;
+}
+
+/* Container for each image */
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8; /* Light background */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 220px; /* Optional: Limit width */
+}
+
+/* Image Styling */
+.image-container img {
+    width: 200px; /* Adjust as needed */
+    height: auto;
+    border-radius: 5px;
+
+}
+
+section {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #ffa7c4;
+        }
+
+footer {
+border-top: 1px solid #ff03af;
+text-align: center;
+padding-top: 5em;
+margin-bottom: 10px;
+margin-right: 100px;
+
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px; /* Stays in the right corner */
+    padding: 10px 15px;
+    background-color: #e460b1;
+    color: rgb(232, 237, 243);
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    
+}
+
+.back-to-top:hover {
+    background-color: #c62970;
+}
+
+
+.navbar {
+    background-color: #f599ca; 
+    padding: 1px 0; 
+    text-align: center; 
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #040409;
+    font-size: 17px;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #fadafa; 
+}
+
